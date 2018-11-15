@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{584E1FF8-B06C-8FF3-F84C-EE368653ED7E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Web v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>WebPlayer:6</UnityBuildTarget>
+    <UnityVersion>5.3.4f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="GETween">
+      <HintPath>Assets\GUI Animator\Common\Plugins\GETween.dll</HintPath>
+    </Reference>
+    <Reference Include="GUIAnimatorFREE">
+      <HintPath>Assets\GUI Animator\GUI Animator FREE\Plugins\GUIAnimatorFREE.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Fighter Pack Bundle Free\Code\CameraControl.cs" />
+    <Compile Include="Assets\Fighter Pack Bundle Free\Code\FighterAnimationDemo.cs" />
+    <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCamera.cs" />
+    <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCameraUI.cs" />
+    <Compile Include="Assets\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
+    <Compile Include="Assets\GE Common Assets\Scripts\GE_UIResponder.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo01.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo02.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo03.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo04.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo05.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo06.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo07.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo08.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
+    <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
+    <Compile Include="Assets\GalaxyBox1\examplescene.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\1.Locomotion\LocomotionGUI.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\1.Locomotion\QueryLocomotionCamera.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\1.Locomotion\QueryLocomotionController.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\2.Helloween\GhostController.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\3.Christmas\ChristmasController.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\CameraAction.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\GUIController.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\GUIControllerAttack.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\GUIControllerChristmas.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\GUIControllerFlying.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\GUIControllerHalloween.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\QueryAnimationController.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\QueryEmotionalController.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\QueryMechanimController.cs" />
+    <Compile Include="Assets\PQAssets\Query-Chan\Scripts\QuerySoundController.cs" />
+    <Compile Include="Assets\Scripts\AudioPlay.cs" />
+    <Compile Include="Assets\Scripts\DimondMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\battleField\battleField_0_Boundary.cs" />
+    <Compile Include="Assets\Scripts\bombMovement.cs" />
+    <Compile Include="Assets\Scripts\cameraControl.cs" />
+    <Compile Include="Assets\Scripts\choosechar.cs" />
+    <Compile Include="Assets\Scripts\gameSystem.cs" />
+    <Compile Include="Assets\Scripts\itemGenerator.cs" />
+    <Compile Include="Assets\Scripts\menu.cs" />
+    <Compile Include="Assets\Scripts\sound.cs" />
+    <Compile Include="Assets\Scripts\tornadoMovement.cs" />
+    <Compile Include="Assets\Scripts\unity_chan_controller\OT.cs" />
+    <Compile Include="Assets\Scripts\unity_chan_controller\PQchanController.cs" />
+    <Compile Include="Assets\Scripts\unity_chan_controller\PQchanOTFireBall.cs" />
+    <Compile Include="Assets\Scripts\unity_chan_controller\attributes.cs" />
+    <Compile Include="Assets\Scripts\unity_chan_controller\basicController.cs" />
+    <Compile Include="Assets\Scripts\unity_chan_controller\disableRigibodyVelocity.cs" />
+    <Compile Include="Assets\Scripts\unity_chan_controller\unityChanOTEleBall.cs" />
+    <Compile Include="Assets\Scripts\unity_chan_controller\unitychanController.cs" />
+    <Compile Include="Assets\Scripts\wordEff\wordEff.cs" />
+    <Compile Include="Assets\UnityChan\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\CameraController.cs" />
+    <Compile Include="Assets\UnityChan\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\IdleChanger.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\SampleStage\GetUI.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\AutoDestroy.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\BM_WaveEffect.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\BasicBullet.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\BeamCollision.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\BeamLine.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\BeamParam.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\BeamWave.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\BillBoard.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\Create_MyLineMesh.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\Flash.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\GeroBeam.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\GeroBeamHit.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\GetColor_BeamLine.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\GetColor_Flash.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\GetColor_Particle.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\JumpScene.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\MouseTgt.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\MultiShooter.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\RandomRotate.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\ScaleWiggle.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\SceneMaster.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\ShooterRotate.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\ShotBase.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\ShotParticleEmitter.cs" />
+    <Compile Include="Assets\particles\BasicBeamShot\Script\ShotParticle_Scale.cs" />
+    <Compile Include="Assets\particles\Elementals\Demo\Scripts\GE_Elementals_Demo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\GE Common Assets\Readme.txt" />
+    <None Include="Assets\GUI Animator\GUI Animator FREE\!How to.txt" />
+    <None Include="Assets\GUI Animator\GUI Animator FREE\Readme.txt" />
+    <None Include="Assets\GalaxyBox1\instructions.txt" />
+    <None Include="Assets\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
+    <None Include="Assets\PQAssets\Query-Chan\Documents\ReadMe.txt" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Fur.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_HW_Ghost.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Halloween.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Ribbon.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Skin.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Snow.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Standard.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_TransBlue.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_TreeLight.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_VertexShadow.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_WrappingPaper.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_velvet.shader" />
+    <None Include="Assets\PQAssets\Query-Chan\license_en.txt" />
+    <None Include="Assets\PQAssets\Query-Chan\license_jp.txt" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+    <None Include="Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
+    <None Include="Assets\UnityChan\license.txt" />
+    <None Include="Assets\fbxs\PowerUps Vol 1 Free\Readme.txt" />
+    <None Include="Assets\particles\BasicBeamShot\HowToUse_EN.txt" />
+    <None Include="Assets\particles\BasicBeamShot\HowToUse_JP.txt" />
+    <None Include="Assets\particles\BasicBeamShot\sh\AddColor_sh.shader" />
+    <None Include="Assets\particles\BasicBeamShot\sh\Add_UVScroll_sh.shader" />
+    <None Include="Assets\particles\BasicBeamShot\sh\BeamLine_sh.shader" />
+    <None Include="Assets\particles\BasicBeamShot\sh\GeroBeam_sh.shader" />
+    <None Include="Assets\particles\BasicBeamShot\sh\Sprite_Add_sh.shader" />
+    <None Include="Assets\particles\Elementals\Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

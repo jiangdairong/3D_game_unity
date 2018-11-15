@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{2162C9DF-C83F-1CE7-4D32-30E075054D46}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_3;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Fighter Pack Bundle Free\Code\CameraControl.cs" />
+     <Compile Include="Assets\Fighter Pack Bundle Free\Code\FighterAnimationDemo.cs" />
+     <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCamera.cs" />
+     <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCameraUI.cs" />
+     <Compile Include="Assets\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
+     <Compile Include="Assets\GE Common Assets\Scripts\GE_UIResponder.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo01.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo02.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo03.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo04.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo05.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo06.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo07.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo08.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\1.Locomotion\LocomotionGUI.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\1.Locomotion\QueryLocomotionCamera.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\1.Locomotion\QueryLocomotionController.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\2.Helloween\GhostController.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\3.Christmas\ChristmasController.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\CameraAction.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\GUIController.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\GUIControllerAttack.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\GUIControllerChristmas.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\GUIControllerFlying.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\GUIControllerHalloween.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\QueryAnimationController.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\QueryEmotionalController.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\QueryMechanimController.cs" />
+     <Compile Include="Assets\PQAssets\Query-Chan\Scripts\QuerySoundController.cs" />
+     <Compile Include="Assets\Scripts\cameraControl.cs" />
+     <Compile Include="Assets\Scripts\unity_chan_controller\OT.cs" />
+     <Compile Include="Assets\Scripts\unity_chan_controller\PQchanController.cs" />
+     <Compile Include="Assets\Scripts\unity_chan_controller\attributes.cs" />
+     <Compile Include="Assets\Scripts\unity_chan_controller\basicController.cs" />
+     <Compile Include="Assets\Scripts\unity_chan_controller\disableRigibodyVelocity.cs" />
+     <Compile Include="Assets\Scripts\unity_chan_controller\unitychanController.cs" />
+     <Compile Include="Assets\UnityChan\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\CameraController.cs" />
+     <Compile Include="Assets\UnityChan\FightingUnityChan_FreeAsset\FightingUnityChan_FreeAsset\Scripts\IdleChanger.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\SceneLoader.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+     <Compile Include="Assets\particles\Elementals\Demo\Scripts\GE_Elementals_Demo.cs" />
+     <Compile Include="Assets\particles\Tazo_fx\Script\BillBoard.cs" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Skin.shader" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_WrappingPaper.shader" />
+     <None Include="Assets\PQAssets\Query-Chan\Documents\ReadMe.txt" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Fur.shader" />
+     <None Include="Assets\PQAssets\Query-Chan\license_en.txt" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Standard.shader" />
+     <None Include="Assets\UnityChan\license.txt" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Snow.shader" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Halloween.shader" />
+     <None Include="Assets\PQAssets\Query-Chan\license_jp.txt" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_velvet.shader" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_VertexShadow.shader" />
+     <None Include="Assets\particles\Elementals\Readme.txt" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_HW_Ghost.shader" />
+     <None Include="Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\GUI Animator\GUI Animator FREE\Readme.txt" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_Ribbon.shader" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_TreeLight.shader" />
+     <None Include="Assets\GE Common Assets\Readme.txt" />
+     <None Include="Assets\GUI Animator\GUI Animator FREE\!How to.txt" />
+     <None Include="Assets\PQAssets\Query-Chan\Shaders\PQ_TransBlue.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="GETween">
+ <HintPath>C:/Users/GaCha/Desktop/3D_game_final_04_22/Assets/GUI Animator/Common/Plugins/GETween.dll</HintPath>
+ </Reference>
+ <Reference Include="GUIAnimatorFREE">
+ <HintPath>C:/Users/GaCha/Desktop/3D_game_final_04_22/Assets/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
